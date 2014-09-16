@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="nameApp">
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Form to login  </title>
+    <script src = "angular.js"></script> 
+    <script src = "app2.js" ></script>  
+    <script src= "jquery.js"> </script>
+    <script src="angular-ui-router.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<style type="text/css">
+body {
+  background-color: #99D9EA;
+  font-size:16px;
+}
+
+</style>
+</head>
+
+ <body> 
+ 
+  <div class="container" ng-app="nameApp" >
+
+         <!-- navigator definition -->
+        <header ng-include="'nav.html'"></header>
+         <!-- logo definition -->
+        <a href="index.html"><img src="deco_.jpg" title="Go Home" width="102" height="84" /></a>
+        <!-- inserting angular-iu-router for the list navigator view-->
+        <div ui-view> </div>
+         
+       
+   </div>
+
+ </body>
+</html>
